@@ -1,5 +1,5 @@
 .footer-bottom { 
-    position:fixed; 
+    // position:fixed; 
     bottom:0; 
     width:100%; 
     height: auto;
@@ -21,6 +21,15 @@
       text-align: center;
       margin: auto;
   }
+  .logo {
+      max-width: 15vw;
+  }
+  .nav-item {
+      padding-right: 15px;
+  }
+  .nav-item:first-child {
+    padding-left: 30px;
+}
   body .container-layout {
     // position: relative;
     // top: 30vh;
@@ -39,12 +48,13 @@
   }
   .heading {
       margin: auto;
-      margin-top: 3%;
-      margin-bottom: 3%;
+      margin-top: 2em;
+    //   margin-bottom: 3%;
       text-align:center;
   }
   .sub-title {
     margin: auto;
+    margin-bottom: 3em;
     text-align: center;
   }
   .coutdown {
@@ -63,20 +73,20 @@
     justify-content: center;
     margin: 0 auto;
   }
-  
+
   #countdown .countdown-section {
     padding: 0 15px;
     border: 1px solid black;
-    border-radius:
-    5px;padding: 20px;
-  }
-  
-  #countdown .countdown-section:last-child {
-    border-right: 0;
+    border-radius:5px;
+    padding: 20px;
+    background-color: #343a40;
   }
   
   #countdown .countdown-section .h1 {
     opacity: 0.75;
+    display: block;
+    text-align: center;
+    margin: auto;
     // padding-left: 20%;
   }
   
@@ -191,4 +201,125 @@
 }
 .nav-pills {
     padding-left: 8% !important;
+}
+// OVER RULE CSS
+.navbar-dark .navbar-nav .nav-link {
+    color: #daa156 !important;
+}
+.navbar-dark .navbar-nav .active>.nav-link {
+    color: #fff !important;
+}
+.navbar-brand {
+    padding-left: 20px;
+}
+@media screen and (max-width: 768px) {
+.logo {
+    max-width: 50vw;
+}
+.slick-slide img {
+    margin: auto;
+    width: 53%
+}
+.navbar-dark .navbar-brand {
+    margin: auto;
+}
+#countdown .countdown-section {
+    padding: 0 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #343a40;
+    width: 49vw;
+    display: inline-block;
+    margin: auto;
+}
+.coutdown {
+    width: 100% !important;
+    margin: auto !important;
+    padding: 0px !important;
+}
+#countdown {
+    display: inline;
+}
+.container-index{
+    margin-top: 12vh;
+}
+h1 {
+    font-size: 2.2em !important;
+}
+.nav-item:first-child {
+    padding-left: 0px;
+}
+.nav-item:first-child {
+    padding-left: auto;
+}
+.result-container {
+    margin-top: 17em;
+}
+.tab-settings {
+    width: 90%;
+}
+.button-year {
+    margin-bottom: 20px;
+    border: 2px solid black;
+    width: 49% !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #343a40 !important;
+    color: #daa156 !important;
+}
+.nav-pills {
+    padding-left: 0px !important;
+}
+.nav-item {
+
+    // padding-right: 35px;
+    // padding-bottom: 20px;
+}
+
+.nav-item a {
+    // color: black;
+    // border: 1px solid black;
+}
+}
+@media screen and (max-width: 430px) {
+    .container-index{
+        margin-top: 0vh;
+    }
+    .result-container {
+        margin-top: 1em;
+        // height: 100vh;
+    }
+    .nav-item:nth-child(3) {
+        // padding-right: 0px !important;
+
+    }
+    .nav-item {
+        // width: 33%;
+        // padding-right: 10px !important;
+        // padding-bottom: 20px;
+    }
+    .nav-pills .nav-link.active {}
+    h1 {
+        font-size: 24px !important;
+}
+
+h4 {
+    font-size: 18px !important;
+}
+.h1 {
+    font-size: 1.5rem !important;
+}
+.footer-margin {
+    margin-bottom: 0px !important;
+}
+#countdown .countdown-section .h1 {
+    color: #daa156 !important;
+}
+#countdown .countdown-section .text-center {
+    color: #daa156 !important;
+}
+#countdown .countdown-section {
+    margin-bottom: 6px;
+}
 }
