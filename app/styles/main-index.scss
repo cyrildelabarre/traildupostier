@@ -1,5 +1,5 @@
 .footer-bottom { 
-    // position:fixed; 
+    position:fixed; 
     bottom:0; 
     width:100%; 
     height: auto;
@@ -14,8 +14,11 @@
 //       color: white !important;
 //   }
 .footer-margin {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #daa156 !important;
 }
   .text-footer {
       text-align: center;
@@ -216,6 +219,12 @@
 .logo {
     max-width: 50vw;
 }
+.col-sm-3 {
+    display: inline-block !important;
+}
+.footer-bottom {
+position: absolute;
+}
 .slick-slide img {
     margin: auto;
     width: 53%
@@ -286,6 +295,10 @@ h1 {
     .container-index{
         margin-top: 0vh;
     }
+    .container-facebook {
+        width: 100vw;
+    }
+   
     .result-container {
         margin-top: 1em;
         // height: 100vh;
