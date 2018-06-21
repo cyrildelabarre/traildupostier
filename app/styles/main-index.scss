@@ -1,3 +1,4 @@
+
 .footer-bottom { 
     position:fixed; 
     bottom:0; 
@@ -6,9 +7,28 @@
     color: white;
     background-color: black; 
   }
-// .img-responsive {
-//     width: 100%;
-// }
+  .underline {
+    $fendersblue: #343a40;
+   color: #daa156;
+    display: inline; 
+    border-bottom: 3px solid darken($fendersblue, 10);
+    padding-bottom: 2px;
+    line-height: 1.75em;
+  
+  
+  // Stop the heading from being inline and give it some margin.
+//   h1:after,
+//   h1:before {
+//     content: "";
+//     display:block;
+//     margin: 1em 0;
+//   }
+  }
+  .container-facebook {
+      background-color: #343a40;
+      padding-bottom: 3em !important;
+    padding-top: 3em !important;
+  }
 .footer-margin {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -78,7 +98,7 @@ h3 {
   }
   .sub-title {
     margin: auto;
-    margin-bottom: 3em;
+    margin-bottom: 6em;
     text-align: center;
   }
   .coutdown {
@@ -252,7 +272,7 @@ a.nav-link:hover {
     display: inline-block !important;
 }
 .footer-bottom {
-position: absolute;
+position: fixed;
 }
 .slick-slide img {
     margin: auto;
